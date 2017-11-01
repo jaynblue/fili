@@ -2,6 +2,7 @@
 // Licensed under the terms of the Apache license. Please see LICENSE.md file distributed with this work for terms.
 package com.yahoo.bard.webservice.data.metric;
 
+import com.yahoo.bard.webservice.config.LogicalMetricInfo;
 import com.yahoo.bard.webservice.data.metric.mappers.ResultSetMapper;
 import com.yahoo.bard.webservice.druid.model.MetricField;
 
@@ -32,7 +33,7 @@ public class LogicalMetric {
      * @param description  Description of the metric
      *
      * @deprecated Properties, such as name, of LogicalMetric is stored in a unified object called
-     * {@link com.yahoo.bard.webservice.data.metric.LogicalMetricInfo}. Use new constructor
+     * {@link LogicalMetricInfo}. Use new constructor
      * {@link #LogicalMetric(TemplateDruidQuery, ResultSetMapper, LogicalMetricInfo)} instead.
      */
     @Deprecated
@@ -58,7 +59,7 @@ public class LogicalMetric {
      * @param description  Description of the metric
      *
      * @deprecated Properties, such as name, of LogicalMetric is stored in a unified object called
-     * {@link com.yahoo.bard.webservice.data.metric.LogicalMetricInfo}. Use new constructor
+     * {@link LogicalMetricInfo}. Use new constructor
      * {@link #LogicalMetric(TemplateDruidQuery, ResultSetMapper, LogicalMetricInfo)} instead.
      */
     @Deprecated
@@ -81,7 +82,7 @@ public class LogicalMetric {
      * @param name  Name of the metric
      *
      * @deprecated Properties, such as name, of LogicalMetric is stored in a unified object called
-     * {@link com.yahoo.bard.webservice.data.metric.LogicalMetricInfo}. Use new constructor
+     * {@link LogicalMetricInfo}. Use new constructor
      * {@link #LogicalMetric(TemplateDruidQuery, ResultSetMapper, LogicalMetricInfo)} instead.
      */
     @Deprecated
