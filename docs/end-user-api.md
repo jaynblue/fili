@@ -226,7 +226,7 @@ Table Queries
 Availability for a table(logical table) is defined as the maximal set of intervals that the table may be able to respond
 to. Or put another way, the table can certainly not respond to any intervals beyond the range marked available. 
 
-### Constrained Queires ###
+### Constrained Queries ###
 Constrained availability will be defined as the availability for a table given a set of query constraints. 
 
 Currently the tables/table/timeGrain response lacks an indication of the time range(s) for which the table has data
@@ -282,7 +282,7 @@ an optional filter clause, and an interval parameter. An example response could 
     }
 ```
 
-Node the line`"availableIntervals": ["2016-05-01 00:00:00.000/2017-05-27 00:00:00.000"]`
+Node the line`"availableIntervals": ["2016-05-01 00:00:00.000/2017-05-27 00:00:00.000"]`.
 
 Query Options
 -------------
